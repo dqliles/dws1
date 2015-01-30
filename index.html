@@ -104,16 +104,18 @@
 			<fieldset>
 				<legend>Your Information:
 				</legend>
+				<div id="infoinput">
 				<label>
 				  Name:
-				  <input type="text" maxlength="100" size="30" name="name"/> 	
+				  <input type="text"  name="name" required/> 	
 				</label>
 				<br>
 				<br>
 				<label>
 				  Email:
-				  <input type="email" maxlength="100" size="30" name="email"/>
+				  <input type="email"  name="email" placeholder=" valid email here"/>
 				</label>
+				</div>
 				<br>
 			</fieldset>
 			<br>
@@ -151,7 +153,7 @@
 					
 					<textarea id="comments" cols="40" rows="4"></textarea>
 				</p>
-				<input type="submit" value="Submit review"/>
+				<input type="submit" value="Submit review" id="submit"/>
 			</fieldset>
 		</form>
 		

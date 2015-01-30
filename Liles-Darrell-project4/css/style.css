@@ -134,11 +134,16 @@ a:active {
 	background: linear-gradient(to bottom, #ff7f04 0%,#ffa73d 35%,#ffb76b 100%); /* W3C */
 	box-shadow: 5px 5px 5px #6B3C03;
 	padding: 10px 0 0 0px; 		
- 	
- 	
- }	
+}	
  
  
+  #infoinput {
+	float: left;
+	width: 60.6654%;
+}	
+ 
+
+
 #resource {
 	clear: left;
 }	 
@@ -157,26 +162,63 @@ a:active {
  }
  
  
+ 
+ 
+ 		/*Table*/
  table {
   width: 55.8376%;}
 th, td {
-  padding: 7px 10px 10px 10px;}
+  padding: 0.7254% 10px 10px 1.0363%;
+}
 th {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 90%;
-  text-align: left;}
+  text-align: left;
+}
 tr {
-  background-color: #FF8927;}
+  background-color: #FF8927;
+}
 tr:hover {
-  background-color: #7f7f7f;}
+  background-color: #7f7f7f;
+}
 
+
+		/*Form*/
+	
+input {
+	font-size: 90%;
+	color: #000000;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+}	
+
+input:focus {
+	border: 2px solid #7f7f7f; 
+}
+	
+ input:hover {
+ 	background-color: #FF8927;
+ }
  
- 
- 
- 
- 
- 
- 
- 
- 	
+		/*button*/
+
+			
+#submit {
+	color: #444444;
+	text-shadow: 0px 1px 1px #ffffff;
+	border-bottom: 2px solid #b2b2b2;
+	background: #ff8927; 
+	background: linear-gradient(to bottom,  #ff8927 0%,#f17432 50%,#ea5507 51%,#ff8927 100%); /* W3C */
+	
+}
+
+#submit:hover {
+	color: #333333;
+	border: 1px solid #a4a4a4;
+	border-top: 2px solid #b2b2b2;
+	background: linear-gradient(to bottom,  #ff8927 0%,#ea5507 49%,#f17432 50%,#ff8927 100%); /* W3C */
+}	
+	
