@@ -7,10 +7,10 @@
 
 body {
     font-family: roboto, helvetica, sans-serif;
-    font-size: 14px;
-    color: #000;
-    background-color: grey;
-    margin: 20px;
+    font-size: 0.875em;
+    color:#000;
+    background-image: url("./boxer_images/subtle-grey-grid.png");
+    margin: 1.9569%;
 
 }
 
@@ -18,14 +18,15 @@ body {
 
 
 #container {
-	width:960px;
+	width:98%;
 	margin:0 auto;
 	text-align: left;	
 	border: 1px solid #665544;
 	border-radius: 20px 20px;
 	background-color: #064B7A;
 	box-shadow: 5px 5px 5px #032136;
-	padding: 10px;
+	padding: .9785%;
+	max-width:960px;
 }
 
 	/* Lists */
@@ -40,7 +41,7 @@ body {
 #unordered  li {
 	display: inline;
 	margin-right: 12px;
-	padding:3px 0;
+	padding:0.2935% 0;
 }	
 
 	/* Headings */
@@ -65,6 +66,12 @@ h1 {
     border-bottom-color: #4F92E3;
     opacity: 0.9;
 }
+
+h4 {
+	padding: 0 0 0 120px;
+
+}		
+
 
 	/* Paragraphs*/
 
@@ -104,4 +111,44 @@ a:hover {
 
 a:active {
  	color: #00AB73;
- }			
+ }	
+ 
+ 
+ 	/* Floats */
+ 	
+
+#mainfloat	{
+	float: left;
+	width: 60.6654%;
+	margin: 0.9785%;
+	
+}	 	
+ 
+#imagefloat {
+	float: left;
+	width: 300px;
+	margin: 0px;
+}	 
+ 
+ 
+ 	/* Gradients */
+ 
+#gallerybackground {
+	width:290px;
+	margin: 0 auto;
+	border: 1px solid #665544;
+	border-radius: 20px 20px;
+	background: linear-gradient(to bottom, #db7c40 0%,#f17432 0%,#f17432 59%,#feccb1 100%); /* W3C */
+	box-shadow: 5px 5px 5px #6B3C03;
+	padding: 10px 0 0 0px; 		
+ 	clear: right;
+ 	
+ }	
+ 
+ 
+#resource {
+	clear: left;
+}	 
+ 
+ 
+ 		
