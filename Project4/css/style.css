@@ -9,7 +9,7 @@ body {
     font-family: roboto, helvetica, sans-serif;
     font-size: 0.875em;
     color:#000;
-    background-image: url("./boxer_images/subtle-grey-grid.png");
+    background-image: url("../boxer_images/subtle-grey-grid.png");
     margin: 1.9569%;
 
 }
@@ -29,7 +29,7 @@ body {
 	max-width:960px;
 }
 
-	/* Lists */
+	/* Main Styles */
 
 
 
@@ -38,7 +38,7 @@ body {
 	color: #FFFFFF;
 }	
 
-#unordered  li {
+nav li {
 	display: inline;
 	margin-right: 12px;
 	padding:0.2935% 0;
@@ -117,16 +117,16 @@ a:active {
  	/* Floats */
  	
 
-#mainfloat	{
+article	{
 	float: left;
 	width: 60.6654%;
 	margin: 0.9785%;
 	
 }	 	
  
-#imagefloat {
+aside {
 	float: left;
-	width: 300px;
+	width: 24.4681%;
 	margin: 0px;
 }	 
  
@@ -134,21 +134,114 @@ a:active {
  	/* Gradients */
  
 #gallerybackground {
-	width:290px;
+	width: 100%;
 	margin: 0 auto;
 	border: 1px solid #665544;
 	border-radius: 20px 20px;
 	background: linear-gradient(to bottom, #db7c40 0%,#f17432 0%,#f17432 59%,#feccb1 100%); /* W3C */
 	box-shadow: 5px 5px 5px #6B3C03;
-	padding: 10px 0 0 0px; 		
+	padding: 1.0417% 0 0 0px; 		
  	clear: right;
  	
  }	
  
+ 		/*Table*/
  
-#resource {
+ 
+ table {
+	width: 55.8376%;
+	border-spacing: 2px 2px;
+	border: 1px solid #FFFFFF;
+	margin-top: 5.1813%;
+	margin-bottom: 5.1813%;
+}	
+	
+th, td {
+  padding: 0.7254% 1.0363% 1.0363% 1.0363%;
+}
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  text-align: left;
+}
+tr {
+  background-color: #4F92E3;
+  
+}
+tr:hover {
+  background-color: #FFFFFF;
+}
+
+
+		/*Form*/
+	
+input {
+	font-size: 90%;
+	color: #FFFFFF;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+
+
+}	
+#infoinput {
+	color: #FFFFFF;
+
+}
+	
+input:focus {
+	border: 2px solid #7f7f7f; 
+}
+	
+ input:hover {
+ 	background-color: #4F92E3;
+ }
+ 
+ .title {
+	float: left;
+	width: 100%;
+	
+} 
+		
+		/*button*/
+
+			
+#submit {
+	color: #000000;
+	text-shadow: 0px 1px 1px #ffffff;
+	border-bottom: 2px solid #b2b2b2;
+	background: #ff8927; 
+	background: linear-gradient(to bottom, #4f92e3 0%,#1e5799 100%); /* W3C */
+	
+}
+
+#submit:hover {
+	color: #000000;
+	border: 1px solid #a4a4a4;
+	border-top: 2px solid #b2b2b2;
+	background: linear-gradient(to bottom, #1e5799 0%,#4f92e3 100%); /* W3C */
+	
+}	
+	 
+ 
+footer {
 	clear: left;
+	margin: 15px;
 }	 
+
+
+			/*image*/
+			 
+.glove {
+	background-image: url("../boxer_images/glove.png");
+ 	background-repeat: no-repeat;	
+ 	background-size: 70px 50px; 	
+ 	padding: 0.7828% 0 20px 70px;
+ }
  
- 
- 		
+.img {
+	width: 100%;
+	height: 100%;
+}		
